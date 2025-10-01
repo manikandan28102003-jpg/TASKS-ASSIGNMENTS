@@ -1,0 +1,35 @@
+                  TASKS AND ASSINGNMENT 
+ 
+1.) 
+    * Html stands for Hyper text markup language. html is a backbone of webdevlopment.  
+  * It is used to create a webpages.html uses a system of tags and attributes. 
+      such as(headings,paragraph,image,link and multimedia content) 
+    *HTML was invented by Tim berners-lee. 
+2.)   
+     <!DOCTYPE html>  
+          → It is called element or tag , it tells this brower is HTML5. 
+     <html>  
+          → It is a root element. its typically as two main sections <head>,<body>. 
+     <head>  
+          → This section contains meta-information about the document.  
+               such as(title, character,stylesheets) 
+     <body>  
+          → This section contains the content that will be displayed on the webpages. 
+               includes text, images, links, and more 
+sample: 
+      <!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>My First Page</title> 
+  </head> 
+  <body> 
+    <h1>Hello evreyone</h1> 
+    <p>This is my first webpage</p> 
+  </body> 
+</html> 
+ 
+ 
+3.)  
+    * The html element is the root element of every HTML document. 
+    * The container that wraps all the content of the page 
+        including the <head>and<body> sections
