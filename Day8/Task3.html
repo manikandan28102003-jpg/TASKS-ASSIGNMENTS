@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grouped Heading Styling</title>
+  <style>
+    /* Grouped type selector for headings */
+    h1, h2, h3 {
+      color: #1abc9c;             
+       margin-bottom: 10px;
+    }
+
+    /* Optional: Different font sizes for visual hierarchy */
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    h3 {
+      font-size: 22px;
+    }
+
+    /* Just for layout */
+    body {
+      background-color: #f4f4f4;
+      
+    }
+
+    .section {
+      background-color: #ffffff;
+     
+    }
+
+    p {
+      font-size: 16px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Main Title (h1)</h1>
+    <p>This section has a main heading. All headings share color and text-shadow from the grouped selector.</p>
+  </div>
+
+  <div class="section">
+    <h2>Subheading (h2)</h2>
+    <p>This is a subheading using the same style group as h1 and h3.</p>
+  </div>
+
+  <div class="section">
+    <h3>Smaller Heading (h3)</h3>
+    <p>Even this smaller heading is part of the same styling group.</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Input Field Styling with Attribute Selectors</title>
+  <style>
+    /* Base styles for all input fields */
+    input {
+      display: block;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 16px;
+      width: 300px;
+      border-radius: 4px;
+     
+    }
+
+    /* Style specifically for text input fields */
+    input[type="text"] {
+      border-color: #3498db;
+      background-color: #ecf6fc;
+    }
+
+    input[type="text"]:focus {
+      border-color: #2980b9;
+      
+    }
+
+    /* Style specifically for password input fields */
+    input[type="password"] {
+      border-color: #e74c3c;
+      background-color: #fdecea;
+    }
+
+    input[type="password"]:focus {
+      border-color: #c0392b;
+      
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Login Form</h2>
+
+  <form>
+    <label for="username">Username (Text):</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+  </form>
+
+</body>
+</html>

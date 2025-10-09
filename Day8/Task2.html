@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced CSS Selectors Example</title>
+  <style>
+    /* Type Selector - applies to all body elements */
+    body {
+      
+      margin: 0;
+      background-color:grey;
+    }
+
+    /* ID Selector - unique header section */
+    #site-header {
+      background-color: gray;
+      color: white;
+      text-align: center;
+    }
+
+    /* Class Selector - reusable navigation bar styling */
+    .navbar {
+      background-color:greenyellow;
+        }
+
+    /* Class Selector for navigation links */
+    .nav-link {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Type Selector - all h2 tags */
+    h2 {
+      color: #2c3e50;
+    }
+
+    /* ID Selector for a specific section */
+    #main-content {
+    
+      background-color:pink;
+      margin: 20px
+    }
+
+    /* Class Selector for a reusable box */
+    .info-box {
+      border-left: 5px solid #3498db;
+      background-color: #eaf4fc;
+      
+      margin-top: 15px;
+    }
+
+    /* Footer styled using type selector */
+    footer {
+      text-align: center;
+      
+      background-color: #bdc3c7;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ID Selector -->
+  <header id="site-header">
+    <h1>My Awesome Website</h1>
+  </header>
+
+  <!-- Class Selector -->
+  <nav class="navbar">
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">About</a>
+    <a href="#" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- ID and Type Selectors -->
+  <section id="main-content">
+    <h2>Welcome!</h2>
+    <p> <strong>Hello everyone</strong> this is my website</p>
+
+    <!-- Class Selector -->
+    <div class="info-box">
+      <h3>Notice</h3>
+    <p> This website build to using html,css,js</p>
+    </div>
+
+    <!-- Another paragraph styled only by type selector -->
+    <p>webdevelopment is most important for create a <strong>web pages</strong>.</p>
+  </section>
+
+  <!-- Ty
