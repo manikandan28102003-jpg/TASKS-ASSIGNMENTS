@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixed Background Banner</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .banner {
+      height: 100vh;
+      background-image:url(./pexels-sebastiaan9977-1097456.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment:fixed;
+      display:flex;
+      justify-content: top;
+      align-items:top;
+      color: rgb(190, 202, 17);
+      text-shadow: 0 2px 5px rgba(116, 14, 119, 0.7);
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+    }
+
+    .content {
+      padding: 50px;
+      background-color: #f4f4f4;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="banner">
+    <h1>Welcome to the Banner:
+    </h1>
+  </section>
+
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis lorem ut dui pretium, nec hendrerit leo sollicitudin. Morbi nec dictum metus. Pellentesque vel luctus sapien, at consequat eros. Donec at leo vel quam laoreet tincidunt.</p>
+    <p>Scroll down to see the parallax effect.</p>
+  </div>
+
+</body>
+</html>

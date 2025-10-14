@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Shadow & Transform Demo</title>
+  <style>
+    body {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100dvh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .text-effect {
+      color: green;
+      font-size: 4rem;
+
+      transform: rotate(-5deg) scale(1.1);
+      text-shadow:   
+         2px 2px 4px rgba(0, 0, 0, 0.6),
+        0 0 10px #00f0ff,
+        0 0 20px #d61094;;
+      
+      cursor: pointer;
+    }
+
+    .text-effect:hover {
+      transform: rotate(5deg) scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="text-effect">Shadow & Transform!</div>
+</body>
+</html>

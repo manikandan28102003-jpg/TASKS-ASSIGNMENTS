@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Positioning</title>
+  <style>
+    /* Base box styles */
+    .box {
+      width: 150px;
+      height: 150px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    /* Relative Box */
+    .relative-box {
+      position: relative;
+      background-color: blue;
+      top: 20px;   
+      left: 20px;  
+    }
+
+    /* Absolute Box */
+    .absolute-box {
+      position: absolute;
+      background-color: green;
+      top: 50px;   
+      left: 200px;
+    }
+
+    /* Fixed Box */
+    .fixed-box {
+      position: fixed;
+      background-color: red;
+      top: 20px;   
+      right: 20px;  
+    }
+
+    body {
+      margin: 0;
+      padding: 40px;
+      min-height: 200vh; 
+      position: relative; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box relative-box">Relative</div>
+  <div class="box absolute-box">Absolute</div>
+  <div class="box fixed-box">Fixed</div>
+
+</body>
+</html>
+
+

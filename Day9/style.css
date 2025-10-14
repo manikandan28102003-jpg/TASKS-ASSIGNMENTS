@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-table {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pricing-box {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.pricing-box h2 {
+  margin-bottom: 10px;
+}
+
+.pricing-box .price {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.pricing-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.pricing-box ul li {
+  margin: 8px 0;
+}
+
+.pricing-box button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pricing-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Unique borders */
+.basic {
+  border: 2px dashed #6c757d;
+}
+
+.pro {
+  border: 2px solid #007bff;
+}
+
+.enterprise {
+  border: 3px double #28a745;
+}
