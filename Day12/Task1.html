@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Display Experiment</title>
+  <style>
+    .box {
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(199, 236, 33);
+      border: 1px solid #000;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    .inline-flex {
+      display: inline-flex;
+      margin: 20px;
+      justify-content: space-between;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .inline-grid {
+      display: inline-grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+  
+  </style>
+</head>
+<body>
+
+  <h2>Display: block (default for div)</h2>
+  <div class="box block">Block 1</div>
+  <div class="box block">Block 2</div>
+
+  <h2>Display: inline</h2>
+  <div class="box inline">Inline 1</div>
+  <div class="box inline">Inline 2</div>
+
+  <h2>Display: inline-block</h2>
+  <div class="box inline-block">Inline-block 1</div>
+  <div class="box inline-block">Inline-block 2</div>
+
+  <h2>Display: none (invisible)</h2>
+  <div class="box none">You shouldn't see me!</div>
+
+  <h2>Display: flex</h2>
+  <div class="box flex parent">
+    <div class="box">Flex Child 1</div>
+    <div class="box">Flex Child 2</div>
+  </div>
+
+  <h2>Display: inline-flex</h2>
+  <div class="box inline-flex parent">
+    <div class="box">Inline-Flex Child 1</div>
+    <div class="box">Inline-Flex Child 2</div>
+  </div>
+
+  <h2>Display: grid</h2>
+  <div class="box grid parent">
+    <div class="box">Grid 1</div>
+    <div class="box">Grid 2</div>
+    <div class="box">Grid 3</div>
+    <div class="box">Grid 4</div>
+  </div>
+
+  <h2>Display: inline-grid</h2>
+  <div class="box inline-grid parent">
+    <div class="box">Inline-Grid 1</div>
+    <div class="box">Inline-Grid 2</div>
+  </div>
+
+ 
+
+  </div>
+
+</body>
+</html>
