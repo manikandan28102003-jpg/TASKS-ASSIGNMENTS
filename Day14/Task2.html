@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Animation</title>
+<style>
+  /* Basic page setup */
+  body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrollbars */
+  }
+
+  /* Animated text */
+  .moving-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    animation: moveText 5s linear infinite;
+  }
+
+  /* Keyframes to move text left to right */
+  @keyframes moveText {
+    0% {
+      left: -200px; /* Start off-screen */
+    }
+    100% {
+      left: 100%; /* Move fully across the screen */
+    }
+  }
+</style>
+</head>
+<body>
+
+  <div class="moving-text">🚀 Moving Text Animation!</div>
+
+</body>
+</html>
