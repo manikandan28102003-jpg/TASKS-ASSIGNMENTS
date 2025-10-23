@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .parent {
+  font-size: 1.25em; /* 1.25 × 16px = 20px */
+}
+
+.child {
+  font-size: 1.25em; /* 1.25 × 20px = 25px (because it’s relative to parent) */
+}
+
+.child-rem {
+  font-size: 1.25rem; /* 1.25 × 16px = 20px (always relative to root) */
+}
+
+    </style>
+</head>
+<body>
+
+
+    <div class="parent">
+  Parent text
+  <div class="child">Child text</div>
+</div>
+
+    
+</body>
+</html>

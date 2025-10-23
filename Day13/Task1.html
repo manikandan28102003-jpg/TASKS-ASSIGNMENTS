@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Background Colors</title>
+  <style>
+    /* Default background color */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      transition: background-color 0.5s ease;
+    }
+
+    /* When viewport is 600px or wider */
+    @media (min-width: 600px) {
+      body {
+        background-color: lightgreen;
+      }
+    }
+
+    /* When viewport is 900px or wider */
+    @media (min-width: 900px) {
+      body {
+        background-color: lightcoral;
+      }
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <h1>Resize the window to change the background color!</h1>
+</body>
+</html>
