@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add List Items Dynamically</title>
+</head>
+<body>
+  <h3>My List:</h3>
+  <ul id="myList"></ul>
+
+  <script>
+   
+    const list = document.getElementById('#myList');
+
+   
+    for (let i = 1; i <= 3; i++) {
+    
+      const listItem = document.createElement('li');
+
+     
+      listItem.textContent = 'Item ' + i;
+
+      list.appendChild(listItem);
+    }
+  </script>
+</body>
+</html>

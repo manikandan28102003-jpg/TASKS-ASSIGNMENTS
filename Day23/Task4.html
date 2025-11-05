@@ -1,0 +1,11 @@
+<ul id="myList">
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+<script>
+  const list = document.getElementById("myList");
+  const firstItem = list.firstElementChild; // get the first <li>
+  list.removeChild(firstItem); // remove it
+</script>
