@@ -1,0 +1,16 @@
+<script>
+    function checkNumber(num) {
+  if (num < 0) {
+    throw new Error("Input number cannot be negative");
+  }
+  return num;
+}
+
+// Example usage:
+try {
+  console.log(checkNumber(-5));
+} catch (error) {
+  console.error("Error:", error.message);
+}
+
+</script>
