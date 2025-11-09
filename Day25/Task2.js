@@ -1,0 +1,13 @@
+try {
+  // This will throw a ReferenceError because 'x' is not defined
+  console.log(x);
+} catch (error) {
+  if (error instanceof ReferenceError) {
+    console.error("A ReferenceError occurred:", error.message);
+  } else {
+    // Re-throw if it's a different kind of error
+    throw error;
+  }
+} finally {
+  console.log("Code executed.");
+}
