@@ -1,0 +1,12 @@
+.message{
+  color: blueviolet;
+  background-color: azure;
+}
+.Profilecard{
+  border: 5px solid black;
+  margin: 10%;
+  color: deeppink;
+  background-color: darkgrey;
+  text-align: center;
+  font-size: medium;
+}
