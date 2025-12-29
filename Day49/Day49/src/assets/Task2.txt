@@ -1,0 +1,22 @@
+1.Store
+
+Holds the entire state of the application
+Only one store in a Redux app
+Created using reducers
+
+
+2.Action
+
+A plain JavaScript object
+Describes what happened
+Must have a type
+
+
+
+
+3.Reducer
+
+A function
+Decides how state changes
+Takes current state + action
+Returns new state

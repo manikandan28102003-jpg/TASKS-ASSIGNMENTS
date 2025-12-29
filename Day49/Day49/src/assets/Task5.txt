@@ -1,0 +1,12 @@
+1. Component dispatches an action
+
+dispatch({ type: "INCREMENT" });
+
+
+2. Action goes to the reducer
+
+3. Reducer creates a new state
+
+4. Store updates the state
+
+5. UI re-renders with new data

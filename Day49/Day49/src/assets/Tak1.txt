@@ -1,0 +1,4 @@
+Redux is a state management tool that keeps your application’s data in one central place (store) so all components can share and update data in a predictable way.
+
+Think of Redux like a single notebook where the whole app’s data is written.
+Components read from it and request changes, but they don’t change it directly.
